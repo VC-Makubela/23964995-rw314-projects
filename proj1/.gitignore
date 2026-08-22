@@ -1,0 +1,5 @@
+schedule_processes
+*.log
+*.o
+*.out
+.DS_Store

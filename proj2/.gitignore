@@ -1,0 +1,119 @@
+# =========================
+
+# OS / System files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Node (kept from template)
+
+# =========================
+
+node_modules/
+
+# =========================
+
+# Build artifacts (C / MPI)
+
+# =========================
+
+bin/
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+
+# MPI / runtime artifacts
+
+# =========================
+
+*.err
+*.rank
+*.trace
+
+# =========================
+
+# Temporary / debug files
+
+# =========================
+
+*.tmp
+*.temp
+debug.txt
+temp/
+
+# =========================
+
+# Secrets / sensitive
+
+# =========================
+
+*.secret
+
+# =========================
+
+# Local environment overrides
+
+# (DO NOT ignore main .env — needed for project)
+
+# =========================
+
+.env.local
+.env.*.local
+
+# =========================
+
+# Editors / IDEs
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# Docker artifacts (optional safety)
+
+# =========================
+
+*.tar
+
+# =========================
+
+# External repos (do not commit these)
+
+# =========================
+
+te-local-test-harness/
+te-local-match-runner/
+
+# =========================
+
+# Proto generated files (kept from template)
+
+# =========================
+
+src/proto/*.go
+
